@@ -1,5 +1,4 @@
-
-export const electricity= [
+const electricity= [
 		{
 			id: 592,
 			provider_id: 6,
@@ -10501,3 +10500,4 @@ export const electricity= [
 			plan_name_below_data: "the Reference price"
 		}
 	]
+exports.electricity = electricity;
