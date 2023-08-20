@@ -13,7 +13,7 @@ const data = electricity;
 
 // POST endpoint to respond with the sample data array
 app.post('/api/data', (req, res) => {
-  res.json(sampleData);
+  res.json(data);
 });
 
 // Start the server
